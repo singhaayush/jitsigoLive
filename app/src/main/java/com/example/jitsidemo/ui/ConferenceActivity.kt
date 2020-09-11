@@ -9,6 +9,9 @@ import org.jitsi.meet.sdk.JitsiMeetActivityInterface
 import org.jitsi.meet.sdk.JitsiMeetConferenceOptions
 import org.jitsi.meet.sdk.JitsiMeetView
 
+/** Alternative way of making Conference Activity using
+ * JitsiMeetActivityInterface instead of direct  JitsiMeetActivity
+ */
 
 class ConferenceActivity : AppCompatActivity(), JitsiMeetActivityInterface {
     private var view: JitsiMeetView? = null
